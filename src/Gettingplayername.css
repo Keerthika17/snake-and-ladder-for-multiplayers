@@ -1,0 +1,34 @@
+.gameoff{
+    display: none;
+}
+#playernameheadercss{ 
+    display: grid;
+    grid-template-columns: 3,3fr;
+    background-color: rgb(245, 244, 244);
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    backdrop-filter: 1px;
+    
+     margin-left: 350px; 
+    /* margin-top: 150px; */ 
+    background: rgb(2,2,14);
+    background: linear-gradient(90deg, rgba(2,2,14,0.9392799356070554) 0%, rgba(9,121,114,1) 47%, rgba(255,0,0,1) 100%);
+}
+#nameheading{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+#getname{
+font-weight:bold;
+font-style: italic;
+}

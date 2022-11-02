@@ -1,0 +1,107 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 700px;
+    height: 600px;
+    
+}
+
+.grid>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    border: 1px solid;
+    width: 62px;
+    height: 55px;
+    margin: 0.2em;
+    backdrop-filter: 1px;
+    border-radius: 10px;
+    
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background: rgb(2, 2, 14);
+    background: linear-gradient(90deg, rgba(2, 2, 14, 0.9392799356070554) 0%, rgba(9, 121, 114, 1) 47%, rgb(110, 38, 38) 100%);
+  
+   
+}
+
+.movebutton {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(211, 82, 82);
+    backdrop-filter: 2px;
+}
+.movebutton:hover {
+    background-color: rgb(54, 99, 100);
+    backdrop-filter: 2px;
+}
+#dice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 150px;
+    width: 200px;
+    background-color: deepskyblue;
+}
+
+.mainheader {
+    display: grid;
+    grid-template-columns: 3, 3fr;
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    backdrop-filter: 1px;
+    background: rgb(2,2,14);
+    background: linear-gradient(90deg, rgba(2,2,14,0.9392799356070554) 0%, rgba(9,121,114,1) 47%, rgba(255,0,0,1) 100%);
+}
+
+#gifmain {
+    float: left;
+   
+}
+#winner{
+display: grid;
+grid-template-columns: repeat(1,2fr);
+background-color: rgb(101, 130, 130);
+border-radius: 9px;
+}
+/* #playerturn{
+padding-top: 20px;
+} */
+#currentposition{
+
+}
+#restart{
+    margin-left: 380px;
+    margin-bottom: 20px;
+}
+#playername{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    background-color: rgb(48, 92, 92);
+    color: white;
+    width: 150px;
+    height: 150px;
+border-radius: 8px; 
+margin-left: -50px;
+}
+#playername:hover{
+    background-color: rgb(58, 53, 29);
+    /* background-image: repeating-radial-gradient(farthest-corner at 90px 90px , rgb(141, 38, 94) 30%,rgb(79, 46, 19) 60%); */
+}
+#diceimage{
+    height: 200px;
+    font-weight: 120px;
+}
+#diceimage:hover{
+ backdrop-filter: 1px;
+}
