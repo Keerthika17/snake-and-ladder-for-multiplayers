@@ -68,7 +68,7 @@ const App = () => {
     <div>
       <div className='main'>
         <header className='mainheader'>
-        <h2 className='dice'>{randomValue}</h2>
+        <h2 className='dice'> DICE :{randomValue}</h2>
            <span><img src="https://www.kibrispdr.org/data/1760/dice-gif-10.gif" alt=""  id='diceimage'/></span>
           <div>  <h4 id='playerturn'>{whichPlayer}</h4></div>
           <h4 id='currentposition'>{playerCurrentPosition}</h4>
