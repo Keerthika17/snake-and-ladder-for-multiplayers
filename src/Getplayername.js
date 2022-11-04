@@ -20,7 +20,7 @@ export default function Getplayername() {
                 playerNamestore.push({Player:(`Player${i}`),Name:playernames[i-1]})
                 console.log(playerNamestore)
                 // playerNamestore[`player${count}`] = playernames[i - 1]
-                console.log(playerNamestore)
+                console.log("playerNamestore",playerNamestore)
 
             }
             setSetGame(true)

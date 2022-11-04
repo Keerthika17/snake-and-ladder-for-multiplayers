@@ -26,14 +26,11 @@ const App = () => {
           console.log("randomValue", randomValue)
           if (element.tomove !== '') {
             emptyArray.forEach(no => {
-
               if (element.tomove === no.id) {
                 no.players[`Player${count}`] = 'true'
-
                 setPlayerposition({ ...playerposition, [`Player${count}`]: no.id })
                 setWhichPlayer([`Player${count} TURN`])
                 setPlayerCurrentPosition(` Player${count} CurrentPosition ${element.id}`)
-                
               }
             });
           }

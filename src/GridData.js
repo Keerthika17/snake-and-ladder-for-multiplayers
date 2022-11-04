@@ -46,14 +46,12 @@ emptyArray.forEach(box => {
       box.icon = snakelad.icon
       box.tomove = snakelad.tovalue
     }
+    if (box.id === 100) {
+      box.icon = "🏆"
+    }
   });
 });
 
-emptyArray.forEach(box => {
-  if (box.id === 100) {
-    box.icon = "🏆"
-  }
-})
 
 console.log("emptyArray", emptyArray)
 export default emptyArray

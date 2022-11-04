@@ -17,14 +17,12 @@
     margin: 0.2em;
     backdrop-filter: 1px;
     border-radius: 10px;
-    
 }
 
 .main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
     background: rgb(2, 2, 14);
     background: linear-gradient(90deg, rgba(2, 2, 14, 0.9392799356070554) 0%, rgba(9, 121, 114, 1) 47%, rgb(110, 38, 38) 100%);
   
@@ -77,9 +75,9 @@ border-radius: 9px;
 /* #playerturn{
 padding-top: 20px;
 } */
-#currentposition{
+/* #currentposition{
 
-}
+} */
 #restart{
     margin-left: 380px;
     margin-bottom: 20px;
